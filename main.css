@@ -1,0 +1,63 @@
+/************Cannot figure out why caption won't float right!*************/
+
+.octodex {
+  display: inline-block;
+  
+}
+.octocat {
+  display: inline-block;
+  float: right;
+  max-width: 28%;
+  margin: 2.5%;
+  position: relative;
+}
+.octocat img{
+  display: inline-block;
+  border: 1px solid gray;
+  max-width: 100%;
+  margin: 2.5%
+
+}
+.image-footer{
+  display: inline-block;
+
+  margin: 2px;
+  padding: 2px;
+
+
+}
+.image-number{
+  display: inline-block;
+  float: left;
+  margin: 2px;
+  padding: 2px;
+}
+.image-caption {
+  display: inline-block;
+  float: right;
+  margin: 2px;
+  padding: 2px;
+}
+
+.image-footer img{
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+}
+
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin: 0;
+  padding: 0;
+}
